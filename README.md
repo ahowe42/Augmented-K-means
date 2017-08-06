@@ -3,6 +3,8 @@ Python code to implement the Augmented k-means algorithm as described in my arXi
 
 This repository includes the custom Python scripts and data files to replicate (up to stochasticity) the results published in the above-mentioned article. Python dependencies related to computation and modeling are `numpy`, `scikit-learn`, and `matplotlib`. Each file is briefly described here.
 
+- `2017ClusteringAugmentedkmeans.pdf` - the above-mentioned article, downloaded in May 2017
+
 - `AugKM_Test_Driver.py` - script to perform Monte Carlo simulation, using either known or simulated data, comparing the clustering performance of Augmented k-means with k-means++
 
 - `AugKmeansPP.py` - the actual Augmented k-means algorithm
@@ -15,4 +17,4 @@ This repository includes the custom Python scripts and data files to replicate (
 
 - `iris_data.m` - tab-separated file with Fisher's Iris dataset; the first column are the cluster labels
 
-- `wine_data.m` - tab-separated file with the wine recognition dataset of M. Fiorina *et al.* used in Aeberhard, S., Coomans, D., de vel, O., 1992. Comparison of Classifiers in High Dimensional Settings. Tech. Rep. 92-02, Dept. of Computer Science and Dept. of Mathematics and Statistics, James Cook University of North Queensland.
+- `wine_data.m` - tab-separated file with the wine recognition dataset of M. Fiorina *et al.* used in "Aeberhard, S., Coomans, D., de vel, O., 1992. Comparison of Classifiers in High Dimensional Settings. Tech. Rep. 92-02, Dept. of Computer Science and Dept. of Mathematics and Statistics, James Cook University of North Queensland."
