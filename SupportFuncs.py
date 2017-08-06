@@ -52,7 +52,8 @@ def ScatterGrpd(data, labels, names = None):
 	plt.hold('off')
 
 def LoadClustData(datafile, datatype):
-	''' Prepare data for modeling - either real or simulated.
+	'''
+	Prepare data for modeling - either real or simulated.
 	If real (0), the first column of datafile will be used as labels,
 	which should be labeled as 0,1,2,.... If simulated (1), the file
 	structure should be:
