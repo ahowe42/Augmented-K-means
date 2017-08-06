@@ -1,6 +1,8 @@
 '''
-JAH 20160316
-Implement Augmented Kmeans
+Implement the Augmented k-means algorithm as described in the arXiv article #1705.07592
+Improved Clustering with Augmented k-means, by J. Andrew Howe
+
+Copyright (C) 2016 J. Andrew Howe; see below
 '''
 import numpy as np
 import numpy.random as rnd
@@ -133,9 +135,19 @@ def KPPInit(data, Khat, randseed = None):
 	# these *are* the (cent)roids you're looking for
 	return centroids
 
-	'''
-Copyright 2016 John Andrew Howe. 
-This code may be freely used, modified, and distributed
-as long as this footer remains unaltered and it is attributed to me.
-No charge may ever be made to use or distribute this code.
+'''
+Copyright (C) 2016 J. Andrew Howe
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 '''
